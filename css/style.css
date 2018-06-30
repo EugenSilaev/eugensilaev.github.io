@@ -29,7 +29,7 @@ header{
 }
 .header-button{
 	
-	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
+	/*box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);
 	border-radius: 50px;
 	background-color: #ffffff;
 	color: #072b6f;
@@ -37,18 +37,21 @@ header{
 	font-weight: 700;
 	margin-top: 33px;
 	padding: 17px 55px ;
-	/*
+	*/
+	display: inline-block;
+    text-decoration: none;
 	box-shadow: 10px 17px 34px 6px rgba(18, 61, 145, 0.83);	
 	background-color: #ffffff;	
 	font-size: 18px;
 	font-weight: 700;
-	margin-top: 33px;
+	margin-top: 15px;
 	padding: 17px 55px ;
 	background:rgba(0, 0, 0, 0);
     color:#FFFC00; 
     border:2px solid #FFFC00;
     border-radius:5px;
-	*/
+    
+	
 
 
 }
@@ -160,6 +163,7 @@ text-align: center;
 	color: #fff;
 	font-size: 18px;
 	padding: 13px 40px;			
+	text-decoration: none;
 }
 
 @media (max-width: 1200px){
@@ -205,7 +209,6 @@ text-align: center;
 	}
 	.footer-author, .footer-text{
 		text-align: center;
-	}
-	
+	}	
 	
 }
